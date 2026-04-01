@@ -446,16 +446,16 @@ a:hover,
 }
 
 .radio-button-cnt input[type="radio"]:checked + label .radio-button-inner {
-	background-color: #009FD6;
+	background-color: #f06734;
 }
 
 .login-button {
 	align-items: center;
-	background: #009FD6;
-	background: -webkit-linear-gradient(0deg, #009FD6, #009FD6);
-	background: -o-linear-gradient(0deg, #009FD6, #009FD6);
-	background: -moz-linear-gradient(0deg, #009FD6, #009FD6);
-	background: linear-gradient(0deg, #009FD6, #009FD6);
+	background: #f06734;
+	background: -webkit-linear-gradient(0deg, #d84e1a, #f06734);
+	background: -o-linear-gradient(0deg, #d84e1a, #f06734);
+	background: -moz-linear-gradient(0deg, #d84e1a, #f06734);
+	background: linear-gradient(0deg, #d84e1a, #f06734);
 	border-radius: 5px;
 	border: none;
 	color: #fff;
@@ -471,7 +471,7 @@ a:hover,
 }
 
 .login-button:hover {
-	background: #009FD6;
+	background: #d84e1a;
 	background: -webkit-linear-gradient(0deg, #e66536, #f27649);
 	background: -o-linear-gradient(0deg, #e66536, #f27649);
 	background: -moz-linear-gradient(0deg, #e66536, #f27649);
@@ -479,11 +479,11 @@ a:hover,
 }
 
 .login-button:active {
-	background: #009FD6;
-	background: -webkit-linear-gradient(0deg, #009FD6, #009FD6);
-	background: -o-linear-gradient(0deg, #009FD6, #009FD6);
-	background: -moz-linear-gradient(0deg, #009FD6, #009FD6);
-	background: linear-gradient(0deg, #009FD6, #009FD6);
+	background: #d84e1a;
+	background: -webkit-linear-gradient(0deg, #f06734, #d84e1a);
+	background: -o-linear-gradient(0deg, #f06734, #d84e1a);
+	background: -moz-linear-gradient(0deg, #f06734, #d84e1a);
+	background: linear-gradient(0deg, #f06734, #d84e1a);
 }
 
 .footer-block {
