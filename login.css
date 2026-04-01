@@ -39,14 +39,18 @@ a:hover, .link:hover {
   justify-content: center;
 }
 
-/* ==================== SIGN IN BUTTON - BLUE ==================== */
-.login-button {
+/* ==================== SIGN IN BUTTON - FORCED BLUE ==================== */
+.login-button,
+button.login-button,
+input.login-button,
+#login-button,
+button[type="submit"] {
   align-items: center;
-  background: #009FD6;
-  background: linear-gradient(0deg, #0078A8, #009FD6);
+  background: #009FD6 !important;
+  background: linear-gradient(0deg, #0078A8, #009FD6) !important;
   border-radius: 5px;
-  border: none;
-  color: #fff;
+  border: none !important;
+  color: #fff !important;
   cursor: pointer;
   display: flex;
   font-weight: bold;
@@ -58,12 +62,20 @@ a:hover, .link:hover {
   user-select: none;
 }
 
-.login-button:hover {
-  background: linear-gradient(0deg, #00668F, #00B4E8);
+.login-button:hover,
+button.login-button:hover,
+input.login-button:hover,
+#login-button:hover,
+button[type="submit"]:hover {
+  background: linear-gradient(0deg, #00668F, #00B4E8) !important;
 }
 
-.login-button:active {
-  background: linear-gradient(0deg, #009FD6, #00668F);
+.login-button:active,
+button.login-button:active,
+input.login-button:active,
+#login-button:active,
+button[type="submit"]:active {
+  background: linear-gradient(0deg, #009FD6, #00668F) !important;
 }
 
 /* Input focus - blue */
