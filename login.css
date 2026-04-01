@@ -1,0 +1,92 @@
+@import url("./obsolete.css");
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #F2F2F0;
+  color: #3f3f3f;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", Arial;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+a, .link {
+  color: #009FD6;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  text-decoration: underline;
+}
+
+.login-background {
+  background-color: #ffffff;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.main-block {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.login-button {
+  align-items: center;
+  background: #009FD6;
+  background: linear-gradient(0deg, #0078A8, #009FD6);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  height: 50px;
+  justify-content: center;
+  margin: 50px 0 0;
+  padding: 0 20px;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.login-button:hover {
+  background: linear-gradient(0deg, #00668F, #00B4E8);
+}
+
+.login-button:active {
+  background: linear-gradient(0deg, #009FD6, #00668F);
+}
+
+/* Input focus - changed to blue */
+.input-container.filled,
+.input-container.focused {
+  border-bottom: 2px solid #009FD6;
+}
+
+/* Radio button checked - blue */
+.radio-button-cnt input[type="radio"]:checked + label .radio-button-inner {
+  background-color: #009FD6;
+}
+
+/* Feedback adjustments */
+.feedback-block.error {
+  background-color: #fbd7ca;
+}
+
+.feedback-block.waiting {
+  background-color: #e6f7fb;
+}
+
+/* Keep the rest of your original styles (left-block, language, tabs, etc.) unchanged */
+.left-logo {
+  background: url("//webmail.aruba.it/web_imgs/login/images/aruba-logo.svg?_v_=4.2.119.20260306_1510") no-repeat left center;
+  background-size: 140px 40px;
+}
